@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Single Screen App</string>
+    <string name="udacity">Udacity</string>
+    <string name="phone_des">phone icon</string>
     <string name="phone">650 555 555</string>
+    <string name="adr">2465 Latham St. \n
+        Mountain View, CA 94043</string>
+    <string name="www_des">web icon</string>
+    <string name="www">www.udacity.com</string>
 </resources>

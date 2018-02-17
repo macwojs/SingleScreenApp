@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,6 +8,7 @@
     android:background="#334554">
 
     <ImageView
+        android:contentDescription="@string/udacity"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="14"
@@ -21,10 +21,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="45dp"
-        android:text="Udacity"
+        android:textSize="45sp"
+        android:text="@string/udacity"
         android:layout_weight="1"
         android:layout_marginTop="20dp"
+        android:layout_marginStart="50dp"
         android:layout_marginLeft="50dp"
         android:textColor="#EEEEEE" />
 
@@ -33,10 +34,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:layout_marginStart="50dp"
         android:layout_marginLeft="50dp"
         android:layout_weight="1">
 
         <ImageView
+            android:contentDescription="@string/phone_des"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:scaleType="centerCrop"
@@ -45,7 +48,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:text="@string/phone"
             android:autoLink="phone"
             android:textColor="#EEEEEE"
@@ -58,10 +61,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:layout_marginStart="50dp"
         android:layout_marginLeft="50dp"
         android:layout_weight="1">
 
         <ImageView
+            android:contentDescription="@string/phone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:scaleType="centerCrop"
@@ -70,14 +75,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="16dp"
-            android:text="2465 Latham St
-Mountain View, CA 94043"
+            android:textSize="16sp"
+            android:text="@string/adr"
             android:autoLink="map"
-            android:layout_weight="1"
             android:textColor="#EEEEEE"
             android:textColorLink="#EEEEEE"
             android:layout_marginTop="3dp"
+            android:layout_marginStart="15dp"
             android:layout_marginLeft="15dp"
             />
     </LinearLayout>
@@ -86,10 +90,12 @@ Mountain View, CA 94043"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:layout_marginStart="50dp"
         android:layout_marginLeft="50dp"
         android:layout_weight="1">
 
         <ImageView
+            android:contentDescription="@string/www_des"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:scaleType="centerCrop"
@@ -99,11 +105,11 @@ Mountain View, CA 94043"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
-            android:textSize="16dp"
-            android:text="www.udacity.com"
+            android:textSize="16sp"
+            android:text="@string/www"
             android:autoLink="web"
             android:textColorLink="#EEEEEE"
-            android:layout_weight="1"
+            android:layout_marginStart="15dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="50dp"
